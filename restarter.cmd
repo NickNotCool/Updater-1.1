@@ -12,6 +12,11 @@ xcopy "bungee\contexts.json" "%USERPROFILE%\Desktop\MistaGreyCat Network\Bungee\
 md "%USERPROFILE%\Desktop\MistaGreyCat Network\Bungee\plugins\LuckPerms\lib"
 xcopy /s/h/e/k/f/c "bungee\lib" "%USERPROFILE%\Desktop\MistaGreyCat Network\Bungee\plugins\LuckPerms\lib"
 
+clear
+timeout -m 30
 echo Done Bungee!
+timeout -m 100
+
+
 pause
 
