@@ -18,12 +18,12 @@ xcopy /s/h/e/k/f/c "bungee\lib" "%USERPROFILE%\Desktop\MistaGreyCat Network\Bung
 echo Done Bungee!
 timeout 2
 
-echo Type A
-xcopy "creative\luckperms.conf" "%USERPROFILE%\Desktop\MistaGreyCat Network\Creative\config\luckperms
-echo Type A
-xcopy "factions\luckperms.conf" "%USERPROFILE%\Desktop\MistaGreyCat Network\Moded-Factions\config\luckperms
-echo Type A
-xcopy "lobby\luckperms.conf" "%USERPROFILE%\Desktop\MistaGreyCat Network\Lobby\config\luckperms
+echo !!!!!!!!!!!!!!!!!!!!!!!!!!OVERRIDE THE FILE!!!!!!!!!!!!!!!!!!!!!
+xcopy "creative\luckperms.conf" "%USERPROFILE%\Desktop\MistaGreyCat Network\Creative\config\luckperms"
+echo !!!!!!!!!!!!!!!!!!!!!!!!!!OVERRIDE THE FILE!!!!!!!!!!!!!!!!!!!!!
+xcopy "factions\luckperms.conf" "%USERPROFILE%\Desktop\MistaGreyCat Network\Moded-Factions\config\luckperms"
+echo !!!!!!!!!!!!!!!!!!!!!!!!!!OVERRIDE THE FILE!!!!!!!!!!!!!!!!!!!!!
+xcopy "lobby\luckperms.conf" "%USERPROFILE%\Desktop\MistaGreyCat Network\Lobby\config\luckperms"
 
 
 echo Done Config-Editing!
